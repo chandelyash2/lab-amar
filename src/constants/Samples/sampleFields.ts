@@ -237,12 +237,7 @@ export const SampleFields = [
     key: "RFT",
     name: "Renal Function Test (RFT) - I",
     fields: [
-      {
-        name: "Creatinine",
-        unit: "mg/dL",
-        bio: "0.7-1.3",
-        // method: "Diazonium Salt",
-      },
+     
       {
         name: "Urea",
         unit: "mg/dL",
@@ -260,6 +255,12 @@ export const SampleFields = [
         unit: "mg/dl",
         bio: "8.4-11",
         // method: "Calculated",
+      },
+      {
+        name: "Creatinine",
+        unit: "mg/dL",
+        bio: "0.7-1.3",
+        // method: "Diazonium Salt",
       },
       // {
       //   name: "Sodium (Na)",
